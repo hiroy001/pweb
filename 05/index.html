@@ -1,28 +1,83 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-    <tittle>CSS Inline</tittle>
-    <meta charset="utf-8" />
+  <title>Minha primeira página CSS</title>
+<style type="text/css">
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
 
-    <style type="text/css">
-        p{
-            color: red;
-            border: 1px solid blue
-        }
-    </style>
+    color: purple;
+    background-color: #d8da3d }
+    ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+   ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+    address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  
+  
+  
+  
+  
+  
+  
+  
+  </style>
+
+
 </head>
-<body>
-    <h1>Exemplos de CSS</h1>
-    <h1>CSS Inline e incorporado</h1>
-    h1 {
-        font-size: 80px
-    }
-    h1, h2, p{
-        color: green;
-    }
 
-    <p style="color: red; border: 1px solid blue; font-family: Arial, Helvetica, sans-serif; font-size: 16px">P1 - There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</p>
-    <p style="color: green; background-color: blueviolet; border: 1px solid #ccc">P2- Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-The standard chunk of Lorem Ipsum used since 1966 is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p> 
-</body> 
+<body>
+
+<!-- Menu de navegacao do site -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="pensamentos.html">Pensamentos</a>
+  <li><a href="cidade.html">Minha cidade</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Conteudo -->
+<h1>Minha primeira página CSS</h1>
+
+<p>Bem vindos à minha página estilizada!
+
+<p>Minha página não contém imagens, mas pelo
+menos está estilizada.
+Ela contém links, ainda que eles não levem
+a lugar algum…
+
+<p>Deveria haver mais textos aqui porém eu
+ainda não decidi o que escrever.
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>Construida em 15 de dezembro de 2004<br>
+  por mim mesmo.</address>
+
+</body>
 </html>
